@@ -2,6 +2,6 @@
 
 Website for **The Delulu We Live In** by Israel Goytom Birhane.
 
-- **Repo:** [github.com/isrugeek/delulubook.github.io](https://github.com/isrugeek/delulubook.github.io)
+- **Repo:** [github.com/delulu-book/delulubook.github.io](https://github.com/delulu-book/delulubook.github.io)
 - **Site:** [delulubook.com](https://delulubook.com)
 
