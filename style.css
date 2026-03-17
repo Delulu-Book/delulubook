@@ -400,6 +400,93 @@ h1 {
   color: var(--muted);
 }
 
+.story {
+  padding: 22px 0;
+}
+
+.story p {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.story strong {
+  color: var(--fg);
+}
+
+.story em {
+  color: var(--fg);
+}
+
+.story-signature {
+  margin-top: 28px !important;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--fg) !important;
+  letter-spacing: 0.01em;
+}
+
+.story-divider {
+  margin: 28px 0;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
+/* --- Editions section --- */
+
+.editions-intro {
+  margin-bottom: 0;
+}
+
+.editions-intro p {
+  margin: 0 0 4px;
+  font-size: 1.02rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.editions-intro strong {
+  color: var(--fg);
+}
+
+.edition-card {
+  margin-top: 22px;
+  padding: 18px 0 0 18px;
+  border-left: 3px solid var(--border);
+}
+
+.edition-card h3 {
+  margin: 0 0 2px;
+  font-size: 1.1rem;
+  color: var(--fg);
+}
+
+.edition-spec {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.88rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.edition-card p {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.edition-card strong {
+  color: var(--fg);
+}
+
+.edition-original  { border-left-color: #c0392b; }
+.edition-archive   { border-left-color: #2e86c1; }
+.edition-personal  { border-left-color: #b5b5b5; }
+.edition-premium   { border-left-color: #d4a843; }
+
 .launch-badge {
   display: inline-block;
   margin-top: 10px;
