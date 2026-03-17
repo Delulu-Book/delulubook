@@ -45,14 +45,18 @@ body {
 }
 
 .hero {
-  padding: 34px 0 18px;
+  padding: 40px 0 32px;
   border-bottom: 1px solid var(--border);
+  text-align: center;
 }
 
 .hero-logo {
   display: block;
-  margin: 0 auto 18px;
-  border-radius: 50%;
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  margin: 0 auto 32px;
+  border-radius: 8px;
 }
 
 .hero-cover {
@@ -60,7 +64,23 @@ body {
   width: 100%;
   max-width: 260px;
   height: auto;
-  margin: 0 auto 24px;
+  margin: 0 auto 40px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 60px var(--red-glow);
+}
+
+.book-cover-section {
+  padding: 24px 0 32px;
+  text-align: center;
+}
+
+.book-cover-img {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  margin: 0 auto;
   border-radius: 8px;
   border: 1px solid var(--border);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 60px var(--red-glow);
@@ -84,11 +104,12 @@ h1 {
   color: var(--muted);
   font-style: italic;
   max-width: 28em;
+  text-align: center;
 }
 
 .author {
   margin: 10px 0 0;
-  color: var(--muted);
+  color: white;
 }
 
 .launch-date {
@@ -104,6 +125,7 @@ h1 {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 18px;
 }
 
@@ -351,7 +373,11 @@ h1 {
 }
 
 .footer-logo {
-  border-radius: 50%;
+  display: block;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 4px;
 }
 
 .footer-links {
