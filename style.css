@@ -488,14 +488,6 @@ h1 {
   color: var(--fg);
 }
 
-.edition-spec {
-  display: inline-block;
-  margin-bottom: 10px;
-  font-size: 0.88rem;
-  color: var(--muted);
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
 
 .edition-card p {
   margin: 0 0 4px;
